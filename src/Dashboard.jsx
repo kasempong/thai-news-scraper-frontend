@@ -26,7 +26,7 @@ const NewsScraperDashboard = () => {
   const [relatedEntities, setRelatedEntities] = useState(null);
   const [entityNetwork, setEntityNetwork] = useState({});
 
-  const API_URL = 'http://localhost:5000/api';
+ const API_URL = 'https://thai-news-scraper-api.onrender.com/api';
 
   // ============ TRANSLATIONS ============
   const translations = {
